@@ -12,12 +12,12 @@ public class CIRCULO {
 		this(178607);
 	}
 	public double impresionA() {
-		float pi=(float)Math.PI;
+		double pi=(double)Math.PI;
 		double circunferencia = (2*pi)*radio;
 		return circunferencia;
 	}
 	public double impresionB() {
-		float pi=(float) Math.PI;
+		double pi=(double) Math.PI;
 		double area=pi*((double)Math.pow(radio, 2));
 		return area;
 	}
